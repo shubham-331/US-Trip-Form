@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to travel form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img  class= "bg" src="iit.png" alt="IIT Kharagpur">
+    <div class="container">
+        <h1>welcome to IIT Khargapur US trip form</h3>
+        <p>enter your detail and submit this form to confirm your participation</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="enter your name">
+            <input type="text" name="age" id="age" placeholder="enter your age">
+            <input type="text" name="gender" id="gender" placeholder="enter your gender">
+            <input type="email" name="email" id="email" placeholder="enter your email">
+            <input type="text" name="phone" id="phone" placeholder="enter your phone">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="enter any other information here"></textarea>
+            <button class="btn">submit</button>
+            <button class="btn">reset</button>
+        </form>
+        
+    </div>
+    <script src="index.js"></script>
+    <!-- INSERT INTO `us trip` (`SNO`, `NAME`, `AGE`, `GENDER`, `EMAIL`, `PHONE`, `OTHER`, `DT`) VALUES ('1', 'textarea', '26', 'male', 'this@this.com', '8219423827', 'i luv india', current_timestamp()); -->
+</body>
+</html>
